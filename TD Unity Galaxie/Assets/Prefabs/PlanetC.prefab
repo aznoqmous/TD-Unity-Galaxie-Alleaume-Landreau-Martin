@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8840411139996697947}
+  - component: {fileID: 3158782193121094881}
   m_Layer: 0
   m_Name: PlanetC
   m_TagString: Untagged
@@ -32,6 +33,21 @@ Transform:
   - {fileID: 5720560511331096019}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3158782193121094881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3334378825295656872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf4ffc233cf9724298419a332bd04cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pivot: {fileID: 0}
+  angularSpeed: 40
+  selfRotationSpeed: 10
 --- !u!1 &9047511550668400255
 GameObject:
   m_ObjectHideFlags: 0
@@ -44,7 +60,6 @@ GameObject:
   - component: {fileID: 7940346410303661018}
   - component: {fileID: 6384276462664154515}
   - component: {fileID: 8114878908461942501}
-  - component: {fileID: 6818236640248009507}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -141,18 +156,3 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6818236640248009507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9047511550668400255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: daf4ffc233cf9724298419a332bd04cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pivot: {fileID: 0}
-  angularSpeed: 20
-  selfRotationSpeed: 30
